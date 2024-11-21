@@ -8,3 +8,35 @@ img {
     left: 10%;
  
 }
+
+body {
+    background-color: lavender;
+    height: 200%;
+
+}
+
+/* divs are normally block elements, but we can change that with the display property */
+
+ #container-rel {
+    background-color: rgb(158, 113, 200);
+    display: inline-block
+ }
+
+
+ #relative {
+    position: relative;
+    top: 20px;
+    right: -25px;
+    z-index: 50;
+    
+    /* z-index affects DEPTH of the position elements */
+    
+ }
+
+ #fixed {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+ }
+
+ 
